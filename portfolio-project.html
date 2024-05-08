@@ -47,7 +47,7 @@
         </header>
 
             <section>
-                <div class="container">
+                <div class="container" id="aboutme">
                     <div class="row">
                         <div class="col mtb-5 p-5">
                             <h3>About Me</h3>
@@ -62,7 +62,7 @@
             </section>
 
             <section>
-                <div class="container">
+                <div class="container" id="education">
                     <div class="row">
                         <div class="col mtb-5 p-5">
                             <h3>Education</h3>
@@ -76,7 +76,7 @@
             </section>
 
             
-                <div class="container">
+                <div class="container" id="projects">
                     <div class="row">
                         <h3 class="col mtb-5 p-5">Projects</h3>
                 </div>
@@ -84,42 +84,54 @@
                 <div class="container-fluid">
                     <div class="row">
                         <!-- <div class="col-4 m-0"> -->
-                            <div class="card col-4 bg-dark text-light">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card bg-dark col text-light mx-2 border-2 border-light" style="width: 25%; ">
+                                
+                                <div class="card-body border-2px border-color-light p-3" id="firstProject">
+                                    <h5 class="card-title">My First HTML project</h5>
+                                    <p class="card-text">Click the button below to see my first attempt at an HTML layout page with NuCamp</p>
+                                        <div class="row row-content">
+                                            <div class="col-5 m-auto text-center">
+                                                <a href="profile.html" class="btn text-white m-auto">First Project</a>
+                                            </div>
+                                            <div class="col-6 text-center">
+                                                <img class="img-thumbnail" src="screencaptureFirstProject.png" alt="My First Project" width="75rem" height="40rem" >
+                                            </div>
+                                        </div>  
                                 </div>
                             </div>
                             <!-- <div class="col-4 m-0"> -->
-                                <div class="card col-4 bg-dark text-light">
+                                <div class="card col bg-dark text-light ms-2 border-light border-2" style="width: 25%;">
+                                   
+                                <div class="card-body border-2px border-color-light p-3" id="fanPage" width="75rem" height="40rem">
+                                    <h5 class="card-title">A Fan Page for Vincent Van Gogh</h5>
+                                    <p class="card-text">Click the button below to see my fan page for Vincent Van Gogh</p>
+                                        <div class="row row-content">
+                                            <div class="col-5 m-auto text-center">
+                                                <a href="fanpage.html" class="btn text-white m-auto">Fan Page</a>
+                                            </div>
+                                            <div class="col-6 text-center">
+                                                <img src="..." alt="Vincent Van Gogh fan page" class="img-thumbnail">
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                                <!-- <div class="col-4 m-0"> -->
+                                <!-- <div class="card col-4 bg-dark text-light">
                                     <img src="..." class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up
-                                            the bulk of the card's content.</p>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
-                                </div>
-                                <!-- <div class="col-4 m-0"> -->
-                                    <div class="card col-4 bg-dark text-light">
-                                        <img src="..." class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make
-                                                up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div> -->
+                                
             </section>
         <footer>
             <section>
-                <div class="container">
+                <div class="container" id="contact">
                     <div class="row">
-                        <div class="col mtb-5 p-5">
+                        <div class="col mt-5 p-4">
                                 <h3>Contact Information</h3>
                                 <p>letgold2@gmail.com</p>
                         </div>
