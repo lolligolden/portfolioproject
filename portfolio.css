@@ -39,22 +39,22 @@
    
 } */
 
-/* .container #head {
+ header { 
    /* background-color: chartreuse ;*/
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /* padding-top: 5%; */
     /* padding-bottom: 5%;  */
     /* /* border: purple solid 15px; */
-    /* background-image: url("../wave-image.jpg"); */
-    /* background-size: cover;  */
-    /* margin: auto; */
-    /* background-repeat: repeat; */
+    /* background-image: url("../wave-image.jpg");  */
+    background-size: cover;  
+    margin: auto; 
+    background-repeat: repeat; 
     /* background-color: purple; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed; 
         
-/* }
+}
 
-h3, footer, p {
+/*h3, footer, p {
     text-align: center;
 } */
 
@@ -86,7 +86,14 @@ h3, footer, p {
 }
 /* Use flexbox to float projects in a line */
 
-#firstProject .btn ,#fanPage .btn {
+/* #firstProject .btn ,#fanPage .btn {
     background-color: purple;
+} */
+
+.navbrand {
+    color: purple;
 }
 
+.card .btn {
+    background-color: purple;
+}
