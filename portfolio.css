@@ -39,20 +39,7 @@
    
 } */
 
- header { 
-   /* background-color: chartreuse ;*/
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    /* padding-top: 5%; */
-    /* padding-bottom: 5%;  */
-    /* /* border: purple solid 15px; */
-    /* background-image: url("../wave-image.jpg");  */
-    background-size: cover;  
-    margin: auto; 
-    background-repeat: repeat; 
-    /* background-color: purple; */
-    background-attachment: fixed; 
-        
-}
+ 
 
 /*h3, footer, p {
     text-align: center;
@@ -91,9 +78,23 @@
 } */
 
 .navbrand {
-    color: purple;
+        color: white;
+       
 }
 
 .card .btn {
     background-color: purple;
+}
+
+header {
+    background-image: url(images/wave-image.jpg);
+    background-size: cover;
+}
+
+header h2 {
+    color: #c859ad;
+}
+
+#LG {
+    background-color: #c859ad;
 }
