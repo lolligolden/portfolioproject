@@ -79,7 +79,7 @@
 
 .navbrand {
         color: white;
-       
+        
 }
 
 .card .btn {
@@ -97,4 +97,21 @@ header h2 {
 
 #LG {
     background-color: #c859ad;
+}
+
+#searchBtn {
+    font-size: 11px;
+    max-width: 20%;
+     
+}
+
+#google {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+   
+}
+
+#leaf {
+    color:green;
+    
 }
