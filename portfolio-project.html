@@ -19,82 +19,108 @@
 <body class="bg-dark text-light">
     <main>
 
-        <header class="container-fluid text-center py-5 h-100">
-            <section>
-                <h1 class="text-center mt-2">LETRICIA GOLDEN</h1>
+        <header id="home" class="container-fluid text-center py-5 vh-100">
+            
+                <h1 class="text-center mt-2 mb-5">LETRICIA GOLDEN</h1>
                 <div class="container-fluid d-inline p-4">
                     <div class="row">
-                        <div class="col-6 text-end fst-italic my-auto p-4">
-                            <h2>Full Stack Web Developer</h2>
+                        <div class="col-lg-6 text-lg-end fst-italic my-auto p-4 mb-5">
+                            <h3>Full Stack Web Developer</h2>
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-5">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-5">
                             <img id="LG" class="img-thumbnail rounded border-1 text-start my-auto mt-3"
                                 style="border:none" src="letriciaprofilepicture.jpg"
                                 alt="Professional Image of Letricia Golden" width="50%">
                         </div>
                     </div>
                 </div>
-                <div class="container"></div><!--put a border around the containter, same color as Full Stack Web Developer title-->
-                    <div class="row">
-                        <nav class="navbar navbar-expand text-center text-white mt-5">
-                            <div class="col">
-                                <span><a class="navbrand p-2" href="#aboutme">About
-                                        Me </a> <a class="navbrand p-2" href="#education">Education </a> <a
-                                        class="navbrand p-2" href="#projects">Projects </a>
-                                    <a class="navbrand p-2" href="#contact">Contact Me</a></span>
-                            </div>
-                        </nav>
-                    </div>
-            </section>
-        </header>
-            <span class="vr w-100 p-3 bg-none"></span>
-            <section>
-                <div class="container" id="aboutme">
-                    <div class="row">
-                        <div class="col mtb-5 p-5">
-                            <h3>About Me</h3>
-                                <p>Career-changer studying full stack web development at NuCamp to bring a well-rounded approach
-                                to creating and maintaining webpages.
-                                Currently, residing in Austin, Texas, I hope to find experience pursuing web development and
-                                working remotely.</p>
+                <div class="">
+                <nav id="portfolio" class="navbar fixed-bottom navbar-expand">
+                    <div class="container-fluid text-center my-0">
+                        <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-4 ms-lg-5 ms-sm-5 px-lg-5">
+                                <li class="nav-item px-lg-5 px-md-4">
+                                    <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item px-md-4 px-1 px-md-3 px-lg-5">
+                                    <a class="nav-link text-white text-nowrap" href="#aboutme">About Me</a>
+                                </li>
+                                <li class="nav-item px-md-4 px-1 px-lg-5">
+                                    <a class="nav-link text-white" href="#education">Education</a>
+                                </li>
+                                <li class="nav-item px-md-4 px-1 px-lg-5">
+                                    <a class="nav-link text-white" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item px-md-4 px-1 px-lg-5">
+                                    <a class="nav-link text-white text-nowrap" href="#contact">Contact Me</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </section>
+                </nav>
+            </div>
+            
+        </header>
+            
+            
+                <div class="container-fluid vh-100 d-flex mx-lg-3 px-lg-4" id="aboutme">
+                    <div class="row">
+                        <div class="col mb-5 p-3 my-5 my-lg-3">
+                            <h3 class="mb-5">About Me</i> </h3>
+                                <p> My name is Letricia Golden.  It's pronounced just like Patricia but with an "L".  I am a career-changer from Austin, Texas, studying full stack web development at NuCamp, to bring a well-rounded approach
+                                to creating and maintaining webpages and apps.  Please continue to visit my webpage to keep up with my improvements
+                                as I continue on my learning journey.  Visit my Projects page to see what I have been working on.  
+                             <div class="text-center">
+                                <img class="text-center img-fluid my-lg-3 my-5" src="images/downtownAustin.jpg" alt="Downtown Austin, Texas"  />
+                                <figcaption class="text-center fs-6">Downtown Austin, TX</figcaption>
+                            </div>   
+                        </div>
+                    </div>
+                </div>                 
+                              
+                                
+                                
+                       
+            
 
-        <section>
-            <div class="container" id="education">
+        
+            <div class="container-fluid vh-100" id="education">
                 <div class="row">
-                    <div class="col mtb-5 p-5">
-                        <h3>Education</h3>
+                    <div class="col my-3 p-4 my-lg-5 my-0">
+                        <h3 class="mb-lg-3">Education</h3>
                         <p>Responsive Web Design classes - Freecodecamp.org</p>
                         <p>Intro to JavaScript - codecademy.com</p>
                         <p>Full Stack Web Development - NuCamp.co</p>
-                        <!--Add Relevant Education to web development-->
+                        <div class="text-center">
+                            <img class="h-35 img-fluid my-5 my-lg-1 p-1" src="images/laptopImage.jpg" alt="Image of a glowing laptop" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        
 
-        <section>
-            <div class="container" id="projects">
+        <section class="vh-100">
+            <div class="container-fluid" id="projects">
                 <div class="row">
-                    <h3 class="col mtb-5 p-5">Projects</h3>
+                    <h3 class="col my-5 my-md-3 p-5">Projects</h3>
                 </div>
 
                 <!-- <div class="container"> -->
             <div class="container-fluid d-flex d-inline">
                 <div class="row">
-                    <div class="card ms-4 col-5 bg-dark text-light border-light border-2 text-start">
+                    <div class="card ms-4 col-5 col-md-5 bg-dark text-light border-light border-2 text-start">
                         <div class="card-body p-3">
                                 <h5 class="card-title">A Fan Page for Vincent Van Gogh</h5>
                                 <p class="card-text">A simple webpage to help others discover his paintings and artistic talent</p>
                                 <a href="fanpage.html" class="btn text-white mb-0">Fan Page</a>
                         </div>
                     </div>
-                    <div class="col m-0"></div>
-                    <div class="card me-4 col-5 bg-dark text-light border-light border-2 text-start">
+                    <div class="col col-md m-0"></div>
+                    <div class="card me-4 col-5 col-md-5 bg-dark text-light border-light border-2 text-start">
                         <div class="card-body p-3">
                                 <h5 class="card-title">Coming Soon</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make
@@ -106,17 +132,25 @@
             </div>
         </section>
         <footer>
-            <section>
-                <div class="container" id="contact">
+            
+                <section class="container-fluid vh-100" id="contact">
                     <div class="row">
-                        <div class="col mtb-5 p-5">
-                            <h3>Contact Infomation</h3>
-                            <p>letgold2@gmail.com</p>
-                            
+                        <div class="col my-5 my-md-3 p-5">
+                            <h3 class="mb-4">Contact Infomation</h3>
+                            <p>To leave a comment directly or talk about working with me, contact me by email at: <a href="mailto:letgold2@gmail.com?" target="_blank">letgold2@gmail.com</a></p>
+                            <div class="mb-4 w-50">
+                                <label for="textarea" class="form-label">
+                                    <p>You can also leave your comments in the box below.  I look forward to your feedback.</p>
+                                </label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                <button type="submit" class="btn text-light"><a class="text-white text-decoration-none" href="mailto:letgold2@gmail.com">Submit</a></button>
+
+                              </div>
+                        
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            
         </footer>
     </main>
     <!--Bootstrap JavaScript-->

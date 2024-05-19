@@ -1,89 +1,17 @@
-/* .container {
-    border: 15px solid purple;
-    background-color: black;
-    margin: auto;
-} */
-/* .name-nav {
-    color: rgb(9, 255, 0);
-    background-color: purple;
-    margin: 20% 20%;
-    padding: 5px 5px 10px 0;
-    text-align: center;
-    border-radius: 35%;
-    font-size: 100%;
-
-    } */
-
-/* div .nav {
-    color: white;
-    font-size: 90%;
-    display: inline;
-   
-
-} */
-
-/* h2 {
-    text-align: center;
-    color: chartreuse;
-    font-size: 200%;
-} */
-
-/* #photo {
-    
-    display: inline-block;
-   
-} */
-
-/* .lgphoto {
-   border: 10px solid purple;
-   
-} */
-
- 
-
-/*h3, footer, p {
-    text-align: center;
-} */
-
-/*section {
-    padding: 2%;
-}*/
-
-/* .areas  */
-    /* border-top: 15px solid purple;
-    border-bottom: 15px solid purple;
-    border-right: 20px solid purple;
-    border-left: 20px solid purple; */
-    /* margin: auto;
-    padding: 5%;
-    color: white;
-    background-color: black; */
-/*  */
-
-/* footer {
-   /*  background-color: black;
-    padding: 5%;
-    margin: auto;
-    /* border: 15px solid purple; */
-/*     color: chartreuse */
- 
-
-/*html {
-    background: black;
+header h1, h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-/* Use flexbox to float projects in a line */
 
-/* #firstProject .btn ,#fanPage .btn {
-    background-color: purple;
-} */
 
-.navbrand {
-        color: white;
+
+#portfolio {
+    background-color: #a2348b;
+    
         
 }
 
 .card .btn {
-    background-color: purple;
+    background-color: #a2348b;
 }
 
 header {
@@ -91,12 +19,12 @@ header {
     background-size: cover;
 }
 
-header h2 {
-    color: #c859ad;
+#contact .btn {
+    background: #a2348b;
 }
 
-#LG {
-    background-color: #c859ad;
+#contact a {
+    color: #a2348b;
 }
 
 #searchBtn {
@@ -117,6 +45,6 @@ header h2 {
 }
 
 .vr {
-    background-color: #c859ad;
+    background-color: #a2348b;
     opacity: 1.0;
 }
