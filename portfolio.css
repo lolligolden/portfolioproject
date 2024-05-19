@@ -1,13 +1,14 @@
-header h1, h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+header h1,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 
 #portfolio {
     background-color: #a2348b;
-    
-        
+
+
 }
 
 .card .btn {
@@ -30,18 +31,18 @@ header {
 #searchBtn {
     font-size: 11px;
     max-width: 20%;
-     
+
 }
 
 #google {
     font-family: Roboto, arial, sans-serif;
     font-size: 14px;
-   
+
 }
 
 #leaf {
-    color:green;
-    
+    color: green;
+
 }
 
 .vr {
