@@ -1,0 +1,27 @@
+{
+  "name": "portfolioproject",
+  "version": "1.0.0",
+  "description": "A portfolio page for Letricia Golden",
+  "source": "portfolio-project.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolligolden/portfolioproject.git"
+  },
+  "keywords": [],
+  "author": "Letricia Golden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolligolden/portfolioproject/issues"
+  },
+  "homepage": "https://github.com/lolligolden/portfolioproject#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
