@@ -1,7 +1,7 @@
 {
   "name": "portfolioproject",
   "version": "1.0.0",
-  "description": "A portfolio page for Letricia Golden",
+  "description": "Letricia Golden Portfolio Page",
   "source": "portfolio-project.html",
   "scripts": {
     "start": "parcel --open",
