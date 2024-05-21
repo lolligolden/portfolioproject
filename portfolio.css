@@ -16,8 +16,8 @@ h3 {
 }
 
 header {
-    background-image: url(images/wave-image.jpg);
-    background-size: cover;
+    background: url(images/wave-image.jpg);
+    background-size: repeat;
 }
 
 #contact .btn {
